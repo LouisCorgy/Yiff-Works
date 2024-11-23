@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugestões e Comentários - Yiff Works</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Sugestões e Comentários</h1>
+    </header>
+    <main>
+        <section class="section-sugestoes">
+            <p>Tem alguma sugestão ou comentário? Preencha o formulário abaixo, e sua mensagem será enviada diretamente para nossa equipe!</p>
+            <form
+                action="https://formspree.io/f/xanydwyn"
+                method="POST"
+                class="form-sugestoes"
+            >
+                <label for="nome">Seu nome:</label>
+                <input type="text" id="nome" name="nome" required placeholder="Digite seu nome">
+                
+                <label for="email">Seu e-mail:</label>
+                <input type="email" id="email" name="email" required placeholder="Digite seu e-mail">
+
+                <label for="mensagem">Comentário/Sugestão:</label>
+                <textarea id="mensagem" name="message" required placeholder="Escreva aqui"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Yiff Works. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
